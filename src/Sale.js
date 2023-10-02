@@ -18,7 +18,7 @@ const Sale = () => {
 
   return (
     <>
-    <section className="mansec">
+    <section className="salesec">
       <Container>
         <Row className="mt-5 mb-4 d-sm-flex d-block top">
           <Col className="left">

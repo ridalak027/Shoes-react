@@ -791,8 +791,83 @@ body {
   color: black;
   cursor: pointer;
 }
+.mansec .card .card-text{
+  border: 1px solid black;
+  border-radius: 23px;
+  text-align: center;
+  width: 150px;
+  font-size: 12px;
+  position: absolute;
+  top: 7px;
+  right: 5px;
+  z-index: 15;
+  font-weight: bold;
+}
+/* Sale Page */
+.salesec .top .right .dropdown-toggle{
+  background-color: black;
+  color: aliceblue;
+  border: 1px solid black;
+  border-radius: 15px;
+  transition: transform 10ms ease-in-out;
+}
 
-.mansec .card .des-1{
+.salesec .top .right .dropdown-toggle:hover{
+  background-color: transparent;
+  color: black;
+}
+
+.salesec .top .right .dropdown-item:hover{
+  background-color: black;
+  color: white;
+}
+
+.salesec .top .right input{
+  border-top: white;
+  border-left: white;
+  border-right: white;
+}
+
+.salesec .top .right input:focus{
+  border-radius: 15px;
+}
+
+.salesec .card div{
+  position: relative;
+}
+
+.salesec .card div .photo{
+  z-index: 1;
+}
+
+.salesec .card div .photo-2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.salesec .card div:hover .photo-2{
+  z-index: 4;
+}
+
+.salesec .card .card-title{
+  font-size: 17px;
+}
+
+.salesec .card .card-subtitle{
+  display: flex;
+}
+
+.salesec .card a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.salesec .card .des-1{
   border: 1px solid black;
   border-radius: 23px;
   text-align: center;
@@ -805,7 +880,7 @@ body {
   font-weight: bold;
 }
 
-.mansec .card .des-2{
+.salesec .card .des-2{
   border: 1px solid black;
   border-radius: 23px;
   text-align: center;
@@ -818,7 +893,7 @@ body {
   z-index: 15;
 }
 
-.mansec .card .des-3{
+.salesec .card .des-3{
   display: none;
 }
 
